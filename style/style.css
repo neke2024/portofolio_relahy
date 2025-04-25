@@ -1,4 +1,4 @@
-/* Importation des polices et variables globales */
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
@@ -16,13 +16,15 @@
     --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Reset de base */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--dark-bg);
@@ -46,7 +48,7 @@ img {
     height: auto;
 }
 
-/* Scrollbar personnalisée */
+
 ::-webkit-scrollbar {
     width: 8px;
     scroll-behavior: smooth;
@@ -61,7 +63,7 @@ img {
     background-color: var(--dark-bg);
 }
 
-/* Navbar */
+
 .navbar {
     background-color: var(--text-dark);
     color: var(--text-light);
@@ -115,7 +117,6 @@ img {
     background-color: var(--accent-hover);
 }
 
-/* Bouton menu hamburger pour mobile */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -134,7 +135,7 @@ img {
     transition: all 0.3s ease;
 }
 
-/* Section Hero */
+
 #hero {
     display: flex;
     justify-content: space-between;
@@ -200,7 +201,7 @@ img {
     box-shadow: 10px 15px 20px rgba(43, 255, 0, 0.8);
 }
 
-/* Section Projets */
+
 .section {
     padding: 4rem 1rem;
     background-color: var(--light-bg);
@@ -267,7 +268,7 @@ img {
     background-color: var(--accent-hover);
 }
 
-/* Animations */
+
 @keyframes fadeInLeft {
     from {
         opacity: 0;
@@ -279,7 +280,7 @@ img {
     }
 }
 
-/* Media Queries */
+
 @media (max-width: 992px) {
     .right_section img {
         max-width: 80%;
@@ -287,7 +288,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    /* Responsive Navbar */
+    
     .menu-toggle {
         display: flex;
     }
@@ -318,7 +319,7 @@ img {
         margin-top: 0.5rem;
     }
     
-    /* Responsive Hero */
+    
     #hero {
         flex-direction: column;
         text-align: center;
@@ -374,8 +375,7 @@ img {
         font-size: 0.9rem;
     }
 }
-/* new code */
-/* Section À propos */
+
 #about {
     background-color: var(--light-bg);
     color: var(--text-dark);
@@ -450,7 +450,7 @@ img {
     font-weight: 500;
 }
 
-/* Media queries pour la section À propos */
+
 @media (max-width: 992px) {
     .about-container {
         gap: 2rem;
@@ -484,9 +484,7 @@ img {
         max-width: 80%;
     }
 }
-/* pour le contact */
 
-/* Section Contact */
 #contact {
     background-color: var(--dark-bg);
     color: var(--text-light);
@@ -586,7 +584,7 @@ img {
     font-size: 1.3rem;
 }
 
-/* Formulaire de contact */
+
 .form-group {
     margin-bottom: 1.5rem;
 }
@@ -629,7 +627,7 @@ img {
     background-color: var(--accent-hover);
 }
 
-/* Media queries pour la section Contact */
+
 @media (max-width: 992px) {
     .contact-container {
         gap: 2rem;
