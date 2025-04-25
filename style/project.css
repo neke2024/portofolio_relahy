@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #project-details {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  .project-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #00adb5;
+  }
+  
+  .project-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-list {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .tech-item {
+    background-color: #2c2c2c;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #b0f1f9;
+    font-size: 0.9rem;
+  }
+  

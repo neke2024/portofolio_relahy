@@ -3,8 +3,8 @@
 
 :root {
     --primary-color: #87CEEB;
-    --accent-color: #ff007f;
-    --accent-hover: #e60073;
+    --accent-color: #ff0000;
+    --accent-hover: #e60000;
     --dark-bg: rgba(0, 0, 0, 0.89);
     --dark-header: rgba(0, 0, 0, 0.8);
     --light-bg: #f5f5f5;
