@@ -105,6 +105,7 @@ img {
 
 .nav_links {
     display: flex;
+    align-items:center;
     gap: clamp(1rem, 3vw, 1.5rem);
 }
 
@@ -155,6 +156,7 @@ img {
 #hero {
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
     padding: clamp(40px, 8vw, 80px) clamp(10px, 3vw, 20px);
     min-height: 80vh;
@@ -164,6 +166,7 @@ img {
 }
 
 .left_section {
+    text-align: center;
     flex: 1 1 300px;
     max-width: 600px;
     animation: fadeInLeft 1s ease-out;
