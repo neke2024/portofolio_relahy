@@ -561,7 +561,7 @@ img {
     :root {
         --section-padding: 5rem;
     }
-    
+    p{font-weight:700;}
     .container {
         max-width: 1400px;
     }
@@ -575,7 +575,7 @@ img {
 @media (max-width: 1280px) {
     .about-container, .contact-container {
         gap: 2.5rem;
-    }
+    }p{font-weight:700;}
 }
 
 /* lg breakpoint - desktop */
@@ -583,7 +583,7 @@ img {
     .about-container, .contact-container {
         gap: 2rem;
     }
-    
+    p{font-weight:700;}
     .right_section img {
         max-width: 75%;
     }
@@ -594,7 +594,7 @@ img {
     .menu-toggle {
         display: flex;
     }
-    
+    p{font-weight:700;}
     .nav_links {
         position: absolute;
         top: 100%;
@@ -665,7 +665,7 @@ img {
     :root {
         --section-padding: clamp(2rem, 5vw, 3rem);
     }
-    
+    p{font-weight:700;}
     .navbar {
         padding: 0.8rem 0.5rem;
     }
@@ -678,7 +678,7 @@ img {
         margin: 0 auto;
         max-width: 400px;
     }
-    
+    p{font-weight:700;}
     .right_section img {
         max-width: 70%;
     }
@@ -701,7 +701,7 @@ img {
     :root {
         --container-padding: 0.75rem;
     }
-    
+    p{font-weight:700;}
     .left_section h1 {
         font-size: 1.5rem;
     }
@@ -741,7 +741,7 @@ img {
     .left_section p {
         font-size: 0.9rem;
     }
-    
+    p{font-weight:700;}
     .btn_nav, .left_section a {
         padding: 0.4rem 0.8rem;
         font-size: 0.85rem;
